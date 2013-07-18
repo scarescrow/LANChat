@@ -1,0 +1,11 @@
+c:\users\sagnik\documents\visual studio 2010\Projects\LANChat\LANChat\bin\Debug\LANChat.exe
+c:\users\sagnik\documents\visual studio 2010\Projects\LANChat\LANChat\bin\Debug\LANChat.pdb
+c:\users\sagnik\documents\visual studio 2010\Projects\LANChat\LANChat\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\sagnik\documents\visual studio 2010\Projects\LANChat\LANChat\obj\x86\Debug\LANChat.Properties.Resources.resources
+c:\users\sagnik\documents\visual studio 2010\Projects\LANChat\LANChat\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+c:\users\sagnik\documents\visual studio 2010\Projects\LANChat\LANChat\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+c:\users\sagnik\documents\visual studio 2010\Projects\LANChat\LANChat\obj\x86\Debug\LANChat.exe
+c:\users\sagnik\documents\visual studio 2010\Projects\LANChat\LANChat\obj\x86\Debug\LANChat.pdb
+c:\users\sagnik\documents\visual studio 2010\Projects\LANChat\LANChat\obj\x86\Debug\LANChat.Form1.resources
+c:\users\sagnik\documents\visual studio 2010\Projects\LANChat\LANChat\obj\x86\Debug\LANChat.Form2.resources
+c:\users\sagnik\documents\visual studio 2010\Projects\LANChat\LANChat\obj\x86\Debug\LANChat.Form3.resources

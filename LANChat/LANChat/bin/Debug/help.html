@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+  </head>
+  <body onload="loadResources()">
+    <script>
+       function loadResources() 
+       {
+          var image1 = new Image();
+          image1.src = 'http://w3c-test.org/webperf/image1.png';
+          image1.onload = resourceTiming;
+       }
+       
+       function resourceTiming() 
+       {
+           var resourceList = window.performance.getEntriesByType("resource");
+           for (i = 0; i < resourceList.length; i++)
+           {
+              if (resourceList[i].initiatorType == "img") 
+              {
+                 alert("End to end resource fetch: "+ resourceList[i].responseEnd - resourceList[i].startTime);
+              }
+           }
+       }
+    </script>
+    <img id="image0" src="http://w3c-test.org/webperf/image0.png">
+  </body>
+</html>

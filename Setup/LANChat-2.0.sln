@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "LANChat-2.0", "LANChat-2.0\LANChat-2.0.vdproj", "{EE44BE91-9ABD-4A73-A62D-A6F3AFE18AA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE44BE91-9ABD-4A73-A62D-A6F3AFE18AA1}.Debug|Default.ActiveCfg = Debug
+		{EE44BE91-9ABD-4A73-A62D-A6F3AFE18AA1}.Debug|Default.Build.0 = Debug
+		{EE44BE91-9ABD-4A73-A62D-A6F3AFE18AA1}.Release|Default.ActiveCfg = Release
+		{EE44BE91-9ABD-4A73-A62D-A6F3AFE18AA1}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
