@@ -1,6 +1,3 @@
-LANChat
-=======
-
 Welcome To LANChat 2.0
 
 Developed by The Scarecrow.(Student Of Delhi Technological University)
@@ -18,12 +15,15 @@ To start the installation, simply Double-Click the LANChat-2.0.exe file (which i
 To use this application, the pre-requisites are:
 1. First computer's IP Address - The application configures the user's IP address on its own.
 2. A free port in the first computer - The application uses the default port 80. In case it is busy, A message is shown, in which case, the port number is to be changed.
-3. Second computer's IP Address - The user is required to add the IP address of the computer with which he is to chat. In case the computer is offline, a message is shown.
+3. Second computer's IP Address - The user is required to add the IP address of the computer with which he is to chat. In case the computer is offline, a message is shown. In case of difficulty of figuring this out, open software in second computer, and note the IP Address in the "Me" portion.
 4. A free port in the second computer - The application uses the default port 80. In case it is busy, A message is shown, in which case, the port number is to be changed.
 
 ####USING THE SOFTWARE####
 
-Once all pre-requisites are complete, press "Connect". If the connection is successful, the text changes to "Connected", and the button is disabled. This means that the user can chat now. To ensure privacy of LAN users, a 2-way connection has to be made for chatting, which means, that while the user at one end has to connect with the user at other end, the user at the other end also has to connect to the current user, only then can the chat progress.
+Once all pre-requisites are complete, press "Connect". If the connection is successful, the text changes to "Connected", and the button is disabled. This means that the user can chat now.
+(Note: Since the software uses computer sockets, and network configuration, once "Connect" is clicked, Windows may show a dialog saying it has blocked some features of the program. Click on "Allow Access" for the chat to work)
+
+To ensure privacy of LAN users, a 2-way connection has to be made for chatting, which means, that while the user at one end has to connect with the user at other end, the user at the other end also has to connect to the current user, only then can the chat progress.
 
 Enter the message you wish to send in the textbox beside the "Send" Button. Pressing "Enter" Key, or clicking the "Send" Button will trigger the message to be sent. The message will appear in the textbox above the "Send" Button.
 
@@ -33,13 +33,18 @@ To add the IP and port values from the saved contact, click the "Existing Contac
 
 To delete a contact from the existing list of contacts, click the "Existing Contacts" button. Then select the contact which is to be deleted, and press the "Delete" key. This will successfully delete a contact from the list of contacts.
 
-To chat with another person, click on the "Open A New Chat" link. That will open a new window, in which a new connection can be made. However, if multiple chat windows are open simultaneously, make sure the port numbers in the "You" section are all different.
+To chat with another person, simply open a new instance of the software. However, if multiple chat windows are open simultaneously, make sure the port numbers in the "You" section are all different.
 
 To close a chat connection, or stop chatting, simply close the window, by clicking the close button, or pressing Alt+F4 in the keyboard.
 
 ####ADVANCED FEATURES####
 
 All the chat contacts of the user are saved in the settings.xml file (Present in "AppData/LANChat"), so that contacts can be easily imported/exported according to the users needs. If contacts are required in a new system, simply install the software there, and replace its settings.xml with the required settings.xml, and the contacts will bw imported.
+
+####UNINSTALLATION####
+
+To uninstall the software, simply double-click the setup file again. Choose "Remove" in the window that opens, and follow through to the end. This will remove all components of the software that were installed in the system.
+Another way is to use the control panel. Select Add/Remove Program in the Control Panel. Select LANChat from the list, and click Uninstall. Follow through to the end.
 
 ####UPGRADES IN THE NEXT VERSIONS####
 
@@ -50,10 +55,8 @@ All the chat contacts of the user are saved in the settings.xml file (Present in
 
 ####HELP and SUPPORT####
 
-If you find any bugs, or errors, please send an email to lanchat2.0@gmail.com
+If you find any bugs, or errors, please send an email to lanchat@gmail.com
 
-If you need any support, or help, please send an email to lanchat2.0@gmail.com 
+If you need any support, or help, please send an email to lanchat@gmail.com 
 
 The code for the software is at https://github.com/scarescrow/LANChat
-
-Most importantly, Enjoy the software!
